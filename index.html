@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner de Tokens</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="titulo">Scanner de Tokens</div>
+    <div class="subtitulo">Stefan, Douglas e Natanna</div>
+    <center>
+        <div class="caixa">
+            <textarea type="text" rows="5" class="entrada" spellcheck="false" 
+            placeholder="digite seu código...">while i < 100 do i = i + j;</textarea>
+            <div class="btns">
+                <button class="btn-scanner" onclick="scannear()">SCANEAR</button>
+                <button class="btn-limpar" onclick="apagar()">LIMPAR</button>
+            </div>
+        </div>
+        <div class="linha"></div>
+
+        <div id="caixa1">
+        <table id="tabela" class="tabela">
+            <tr class="linha-topo">
+                <td class="celula-topo">Token</td>
+                <td class="celula-topo">Identificação</td>
+                <td class="celula-topo">Tamanho</td>
+                <td class="celula-topo">Posição</td>
+            </tr>
+        </table>
+        <table id="tabela2" class="tabela" style="margin-left: 35px;">
+            <tr class="linha-topo">
+                <td class="celula-topo">Índice</td>
+                <td class="celula-topo">Símbolo</td>
+            </tr>
+        </table>
+        </div>
+        <div class="linha"></div>
+
+    </center>
+    
+    <script src="scanner.js"></script>
+</body>
+</html>

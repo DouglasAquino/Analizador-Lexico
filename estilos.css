@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.caixa textarea{
+    margin-top: 1rem;
+    width: 34rem;
+    height: 3rem;
+    resize: none;
+    outline: none !important;
+    border-color: #008080;
+}
+
+.caixa {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#caixa1 {
+    margin-top: 1rem;
+    align-content: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.titulo{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 2px;
+    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .3);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: -webkit-linear-gradient(to right, #0AA, #15645e);
+    background: linear-gradient(to left, #0AA, #15645e); 
+}
+.subtitulo{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 2px;
+    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .3);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: -webkit-linear-gradient(to right, #0AA, #15645e);
+    background: linear-gradient(to left, #0AA, #15645e); 
+}
+
+.entrada{
+    padding-top: 1rem;
+}
+
+.entrada{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #008080;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.btn-scanner{
+    margin: 18px;
+    color: #008080;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #008080;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    font-weight:bold;
+    transition: color 1s;
+    margin-left: 2rem;
+    
+}
+
+.btn-limpar{
+    margin: 5px;
+    color: #008080;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #008080;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    font-weight:bold;
+    transition: color 1s;
+    
+}
+
+.btn-limpar:hover {
+    background-color: #0AA;
+    border-color: #008080;
+    color: white;
+}
+
+.btn-scanner:hover{
+    background-color: #0AA;
+    border-color: #008080;
+    color: white;
+}
+
+.tabela{
+    margin-top: 1rem;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+#tabela2{
+    max-width: 200px;
+    max-height: 80px;
+    margin-bottom: 1rem;
+}
+
+.celula-topo{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #008080;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.celula{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.linha{
+    width: 95%;
+    background-color: #008080;
+    height: 3px;
+    margin-top: 30px;
+}
+
+
+tr:hover td{
+    background-color: #0AA;
+}
