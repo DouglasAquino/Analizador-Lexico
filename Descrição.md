@@ -1,6 +1,6 @@
 # Analizador-Lexico
 
-<h1>Desenvolvimento de um Analisador Léxico</h1>
+<h2>Desenvolvimento de um Analisador Léxico</h2>
 
 <h3> Considere uma linguagem com as seguintes características:</h3>
 
